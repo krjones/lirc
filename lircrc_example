@@ -1,0 +1,153 @@
+begin
+    prog = irexec
+    button = KEY_1
+    config = ssh root@192.168.0.42 '/home/pi/GitHub/tft/tft.py lastdet'
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_2
+    config = ssh root@192.168.0.42 '/home/pi/GitHub/tft/tft.py lastsnap'
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_3
+    config =  ssh root@192.168.0.42 '/home/pi/GitHub/tft/tft.py wx'
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_4
+    config = ssh root@192.168.0.42 '/home/pi/GitHub/tft/NFL/pgNFL.py'
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_5
+    config = ssh root@192.168.0.42 '/home/pi/pgTwitter.py'
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_6
+    config = ssh root@192.168.0.42 '/home/pi/pgTwitter.py'
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_7
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_8
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_9
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_0
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_PLAYPAUSE
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_CHANNELUP
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_CHANNELDOWN
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_CONTEXT_MENU
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_VOLUMEDOWN
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_VOLUMEUP
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_FASTFORWARD
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_REWIND
+    config = /home/pi/Git/helloWorld.py
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_FN_1
+    config = ssh root@192.168.0.42 '/home/pi/GitHub/tft/tft.py on
+    repeat = 0
+end
+begin
+    prog = irexec
+    button = KEY_FN_2
+    config = ssh root@192.168.0.42 '/home/pi/GitHub/tft/tft.py off
+    repeat = 0
+end
+
+#begin
+#  button = KEY_1
+#  prog = myprogram
+#  config = one
+#end
+
+#begin
+#  prog = myprogram
+#  button = KEY_2
+#  config = two
+#end
+
+# 	       KEY_1                    0x30CF
+#          KEY_2                    0xB04F
+#          KEY_3                    0x708F
+#          KEY_4                    0x08F7
+#          KEY_5                    0x8877
+#          KEY_6                    0x48B7
+#          KEY_7                    0x28D7
+#          KEY_8                    0xA857
+#          KEY_9                    0x6897
+#          KEY_0                    0x18E7
+#          KEY_PLAYPAUSE            0x00FF
+#          KEY_CHANNELUP            0x40BF
+#          KEY_CHANNELDOWN          0x807F
+#          KEY_CONTEXT_MENU         0x10EF
+#          KEY_VOLUMEDOWN           0xA05F
+#          KEY_VOLUMEUP             0x609F
+#          KEY_FASTFORWARD          0x50AF
+#          KEY_REWIND               0x906F
+#          KEY_FN_1                 0x9867
+#          KEY_FN_2                 0x58A7
